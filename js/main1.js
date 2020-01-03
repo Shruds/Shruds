@@ -33,11 +33,6 @@ var fullHeight = function() {
 	});
 };
 fullHeight();
-//$.Scrollax();
-
-
-
-   // Burger Menu
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
@@ -69,66 +64,12 @@ fullHeight();
 	    $('html, body').animate({
 	        scrollTop: $($.attr(this, 'href')).offset().top - 70
 	    }, 500, function() {
-	    	// window.location.hash = href;
 	    });
 		});
 
 	};
 
 	onePageClick();
-	
-
-	var carousel = function() {
-		$('.carousel-friends').owlCarousel({
-			autoplay: true,
-			autoHeight: true,
-			center: true,
-			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: false,
-			dots: true,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 2
-				},
-				1000:{
-					items: 5
-				}
-			}
-		});
-
-		$('.carousel-testimony').owlCarousel({
-			autoplay: true,
-			autoHeight: true,
-			center: true,
-			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: false,
-			dots: true,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 2
-				},
-				1000:{
-					items: 3
-				}
-			}
-		});
-
-	};
-	carousel();
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
@@ -149,10 +90,6 @@ fullHeight();
 		// }, 100);
 	});
 
-
-	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
-	});
 
 	// scroll
 	var scrollWindow = function() {
@@ -298,7 +235,7 @@ fullHeight();
 
 	function makeTimer() {
 
-		var endTime = new Date('January 27, 2020 07:30:00');			
+		var endTime = new Date('January 27, 2020 06:00:00');			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
