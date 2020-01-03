@@ -16,29 +16,24 @@
     scrollProperty: 'scroll'
   });
 
-
-	var fullHeight = function() {
-
+var forMobile = function () {
+	if ($(window).height() > $(window).width()) {
+		var mobile = "{videoURL:'https://youtu.be/RYOYcl98BpE',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"
+		$('.js-home-video a.player').attr('data-property',mobile);
+	} else {
+		var desk = "{videoURL:'https://youtu.be/lNwHNpA4Caw',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:3, opacity:1, quality:'default',optimizeDisplay:true}"
+		$('.js-home-video a.player').attr('data-property',desk);
+	}
+};
+var fullHeight = function() {
+	$('.js-fullheight').css('height', $(window).height());
+	$(window).resize(function(){
 		$('.js-fullheight').css('height', $(window).height());
-		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
-		});
-
-	};
-	fullHeight();
-
-	// loader
-	var loader = function() {
-		setTimeout(function() { 
-			if($('#ftco-loader').length > 0) {
-				$('#ftco-loader').removeClass('show');
-			}
-		}, 1);
-	};
-	loader();
-
-	// Scrollax
-   $.Scrollax();
+		forMobile();
+	});
+};
+fullHeight();
+//$.Scrollax();
 
 
 
