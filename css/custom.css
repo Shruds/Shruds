@@ -75,3 +75,58 @@
 .parents-text-aswin h3{
     line-height: 1;
 }
+
+.no-webp .siddhu-aswin{
+    background-image: url(../images/friends/Siddarth.jpg);
+}
+.webp .siddhu-aswin{
+    background-image: url(../images/friends/Siddarth.webp);
+}
+.no-webp .ishu-aswin{
+    background-image: url(../images/friends/Ishu-1.jpg);
+}
+.webp .ishu-aswin{
+    background-image: url(../images/friends/ishu-1.webp);
+}
+.no-webp .nava-aswin{
+    background-image: url(../images/friends/Nava.jpg);
+}
+.webp .nava-aswin{
+    background-image: url(../images/friends/Nava.webp);
+}
+.no-webp .nikki-aswin{
+    background-image: url(../images/friends/Nikki.jpg);
+}
+.webp .nikki-aswin{
+    background-image: url(../images/friends/Nikki.webp);
+}
+.no-webp .sk-aswin{
+    background-image: url(../images/friends/sk.jpg);
+}
+.webp .sk-aswin{
+    background-image: url(../images/friends/SK.webp);
+}
+.no-webp .akshaya-aswin{
+    background-image: url(../images/friends/akshaya.jpg);
+}
+.webp .akshaya-aswin{
+    background-image: url(../images/friends/akshaya.webp);
+}
+.no-webp .aswin-aswin{
+    background-image: url(../images/friends/aswin.jpg);
+}
+.webp .aswin-aswin{
+    background-image: url(../images/friends/aswin.webp);
+}
+.no-webp .akshaya-2-aswin{
+    background-image: url(../images/friends/aishu.jpg);
+}
+.webp .akshaya-2-aswin {
+    background-image: url(../images/friends/aishu.webp);
+}
+.no-webp .gowtham-aswin{
+    background-image: url(../images/friends/Gowtham.jpg);
+}
+.webp .gowtham-aswin{
+    background-image: url(../images/friends/Gowtham.webp);
+}
