@@ -6,3 +6,63 @@
     background-position: center;
     color: #000
 }
+.no-webp .main-bg-aswin{
+    background-image:url(../images/main_bg.jpg);
+}
+.webp .main-bg-aswin{
+    background-image: url(../images/main_bg.webp);
+}
+.no-webp .about-aswin{
+    background-image:url(../images/about.jpg);
+}
+.webp .about-aswin{
+    background-image:url(../images/about.webp);
+}
+.no-webp .overlay-top-aswin{
+    background-image: url(../images//top-bg.jpg);
+}
+.webp .overlay-top-aswin{
+    background-image: url(../images/top-bg.webp);
+}
+.no-webp .overlay-bottom-aswin{
+    background-image: url(../images/bottom-bg.jpg);
+}
+.webp .overlay-bottom-aswin{
+    background-image: url(../images/bottom-bg.webp);
+}
+.no-webp .bride-aswin{
+    background-image: url(../images/bride.png);
+}
+.webp .bride-aswin{
+    background-image: url(../images/bride.webp);
+}
+.no-webp .groom-aswin{
+    background-image: url(../images/groom.png);
+}
+.webp .groom-aswin{
+    background-image: url(../images/groom.webp);
+}
+.no-webp .place1-aswin{
+    background-image: url(../images/place-1.jpg);
+}
+.webp .place1-aswin{
+    background-image: url(../images/place-1.webp);
+}
+.no-webp .place2-aswin{
+    background-image: url(../images/place-2.jpg);
+}
+.webp .place2-aswin{
+    background-image: url(../images/place-2.webp);
+}
+.no-webp .shri-parents-aswin{
+    background-image: url(../images/shri_parents.jpg);
+}
+.webp .shri-parents-aswin{
+    background-image: url(../images/shri_parents.webp);
+}
+.no-webp .susu-parents-aswin{
+    background-image: url(../images/susu_parents.jpg);
+}
+.webp .susu-parents-aswin{
+    background-image: url(../images/susu_parents.webp);
+}
