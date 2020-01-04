@@ -72,8 +72,8 @@
     padding: 10px;
     text-align: center;
 }
-.parents-text-aswin h3{
-    line-height: 1;
+.parents-text-aswin h3,h1{
+    line-height: 1.2;
 }
 
 .no-webp .siddhu-aswin{
