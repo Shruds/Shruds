@@ -18,7 +18,7 @@
 
 var forMobile = function () {
 	if ($(window).height() > $(window).width()) {
-		var mobile = "{videoURL:'https://youtu.be/knmVTcPZOmo',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'highres',optimizeDisplay:true}"
+		var mobile = "{videoURL:'https://youtu.be/T5OMtl2FEkw',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'highres',optimizeDisplay:true}"
 		$('.js-home-video a.player').attr('data-property',mobile);
 	} else {
 		var desk = "{videoURL:'https://youtu.be/lNwHNpA4Caw',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:3, opacity:1, quality:'highres',optimizeDisplay:true}"
