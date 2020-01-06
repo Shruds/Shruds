@@ -7,10 +7,10 @@
     color: #000
 }
 .no-webp .main-bg-aswin{
-    background-image:url(../images/main_bg.jpg);
+    background-image:url(../images/main_bg2.jpg);
 }
 .webp .main-bg-aswin{
-    background-image: url(../images/main_bg.webp);
+    background-image: url(../images/main_bg2.webp);
 }
 .no-webp .about-aswin{
     background-image:url(../images/about.jpg);
